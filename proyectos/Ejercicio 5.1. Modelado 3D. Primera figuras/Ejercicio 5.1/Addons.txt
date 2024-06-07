@@ -1,0 +1,4 @@
+El addon que sirve para poder usar blender para arquitectura como en SketchUp se llama Archimesh y viene instalada con blender.
+Estos son unos videos que muestran algunos addons gratis:
+https://www.youtube.com/watch?v=uxMj2JS6MpA
+https://www.youtube.com/watch?v=R_5IfX1zVMA

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--Arik van der Meulen Romero-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Arik van der Meulen Romero">
+    <title> Ejercicio 3.8. Página inicio </title>
+    <style>
+        h1 {position: absolute; display: flex; justify-content: center; align-items: center; border: dashed; color: white; margin-top: 48vh; margin-left: 43.5vw; font-size: 300%;}
+        img {width: 99vw; height: 99vh; object-fit: cover; position: absolute; z-index: -1;}
+    </style>
+</head>
+<body>
+        <h1> &#8198Bienvenidos&#8198 </h1>
+        <img id="myimg">
+    <script>
+            let a = ["images38/1.jpg","images38/2.jpg","images38/3.jpg","images38/4.jpg","images38/5.jpg","images38/6.jpg",];
+            let ig = Math.floor(Math.random()*a.length);
+            document.getElementById("myimg").src= a[ig];
+    </script>
+</body> 
+</html>
